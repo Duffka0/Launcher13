@@ -1,0 +1,10 @@
+# Lines that start with '#' are comments
+# Use the 'byond' keyword to specify where the dreamseeker exe is. DO NOT end the path in a \
+# Use the 'server' keyword to specify the name and ip you wish to connect to
+#	Example of server keyword:
+#		server Bungalow Station 13 | byond://45.76.44.31:1337
+#	Use | to seperate the name from the IP
+
+byond E:\Byond\bin
+server 9 Year old admins | byond://BYOND.world.374079499
+server 11 Year old admins | byond://goon1.goonhub.com:26100/
