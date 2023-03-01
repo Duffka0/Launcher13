@@ -2,7 +2,7 @@
 
 #include <basic.hpp>
 
-#define VERSION "1.0.0"
+#define VERSION "1.1.0"
 
 struct Server {
 	std::string name;
@@ -72,9 +72,6 @@ selection:
 	std::string cmd = byond + "\\" "dreamseeker.exe " + servers[selection].ip;
 	std::cout << "Loading " << servers[selection].name << "...\nNote: Program might take a moment to respond when you close the game\n";
 	system(cmd.c_str());
-
-	std::cout << "\n\nPush enter to close...";
-	std::cin.ignore();
-	std::cin.ignore();
+	goto selection;
 	return 0;
 }
